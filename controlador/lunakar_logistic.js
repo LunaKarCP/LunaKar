@@ -3,6 +3,10 @@ let contenedor_principal = mkObj(body,"contenedor_principal","contenedor_princip
     let header = mkObj(contenedor_principal,"header","header")
         
             let img_logo_header = mkObjImg(header,"img_logo_header","img_logo_header","./vista/img/logo_header.png")
+
+            img_logo_header.addEventListener("mouseup",function () {
+                location.reload()
+            })
         
         let img_menu_header = mkObjImg(header,"img_menu_header","img_menu_header","./vista/img/menu_header.png")
             let menu_header = mkObj(img_menu_header,"menu_header","menu_header");flexNone(menu_header);

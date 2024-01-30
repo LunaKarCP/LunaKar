@@ -138,6 +138,11 @@ div{
 }
 
 .img_logo_header{
+    padding: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+}.img_logo_header:hover{
+    background-color: var(--colorHoverBlue);
 }
 
 .cont_img_menu_header{
